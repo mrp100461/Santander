@@ -1,0 +1,14 @@
+@Santander_HostAddress = https://localhost:7230
+
+
+###
+
+GET {{Santander_HostAddress}}/api/v1
+
+###
+GET {{Santander_HostAddress}}/api/v1/Stories/49876158
+###
+
+GET {{Santander_HostAddress}}/api/v1/Stories?n=5
+
+###
