@@ -2,6 +2,7 @@
 *.dll
 *.exe
 *.pdb
+*.user
 # Ignore specific folders (include trailing slash)
 bin/debug
 obj/debug
