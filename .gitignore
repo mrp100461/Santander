@@ -1,0 +1,22 @@
+﻿
+*.dll
+*.exe
+*.pdb
+# Ignore specific folders (include trailing slash)
+bin/debug
+obj/debug
+	
+/bin/Debug/net10.0/Santander.exe
+/bin/Debug/net10.0/Santander.pdb
+/bin/Debug/net10.0/Santander.runtimeconfig.json
+/bin/Debug/net10.0/Santander.staticwebassets.endpoints.json
+/bin/Debug/net10.0/Santander.deps.json
+/bin/Debug/net10.0/appsettings.json
+/bin/Debug/net10.0/appsettings.Development.json
+obj/Debug/net10.0/Santander.AssemblyInfo.cs
+obj/Debug/net10.0/Santander.AssemblyInfoInputs.cache
+obj/Debug/net10.0/Santander.dll
+*.dll
+*.cache
+obj/Debug/net10.0/Santander.AssemblyInfo.cs
+obj/Debug/net10.0/refint/Santander.dll
