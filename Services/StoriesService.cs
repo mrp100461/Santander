@@ -40,7 +40,7 @@ public class StoriesService : IStoriesService
             throw new BadHttpRequestException($"Parameter n is too large, {nameof(n)}");
         }
 
-        return [.. stories.OrderBy(s => s.CommentCount).Take(n)];         
+        return [.. stories.OrderBy(s => s.Score).Take(n)];         
     }
 
     public async Task<List<int>?> GetStoriesIdsAsync()

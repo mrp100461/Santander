@@ -10,11 +10,11 @@
 [What problem it solves, who uses it, and the key design idea.]
 
 ## Features
-- The main endpoint is to provide a simple and efficient way to interact with the Santander API. https://localhost:7230/api/v1/Stories?n=5 could not be tested in 2026 http file request is timing out 
+- The main endpoint is to provide a simple and efficient way to interact with the Santander API. https://localhost:7230/api/v1/Stories?n=5 gets thethe top five storeies ordered by score ,could not be tested in 2026 http file request is timing out 
 - Test features  https://localhost:7230/api/v1/Stories?id=1 gets the story with id 1
-- Test features  https://localhost:7230/api/v1/Stories?n=5 gets thethe top five storeies ordered by score
-
-## Requirements
+- Test features  https://localhost:7230/api/v1 gets them ids for stories
+ 
+- # Requirements
 - Windows 10/11
 - [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - Visual Studio 2026 (or a recent 2022 release with .NET 10 support), or VS Code with the C# Dev Kit
@@ -28,7 +28,7 @@ dotnet --version
 
 ### Clone and build
 ```powershell
-git clone <repository-url> C:\Dev\Santander
+git clone https://github.com/mrp100461/Santander.git C:\Dev\Santander
 cd C:\Dev\Santander\Santander
 dotnet restore
 dotnet build --configuration debug
