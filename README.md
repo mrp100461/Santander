@@ -10,7 +10,7 @@
 [What problem it solves, who uses it, and the key design idea.]
 
 ## Features
-- The main endpoint is to provide a simple and efficient way to interact with the Santander API. https://localhost:7230/api/v1/Stories?n=5 gets thethe top five storeies ordered by score ,could not be tested in 2026 http file request is timing out 
+- The main endpoint is to provide a simple and efficient way to interact with the Santander API. https://localhost:7230/api/v1/Stories?n=5 gets thethe top five stories ordered by score ,could not be tested in 2026 http file request is timing out 
 - Test features  https://localhost:7230/api/v1/Stories?id=1 gets the story with id 1
 - Test features  https://localhost:7230/api/v1 gets them ids for stories
  
